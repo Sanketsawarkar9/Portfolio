@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sanket Sawarkar</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <h2>SANKET <span>PORTFOLIO</span></h2>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">My Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+        <i id="bar" class="fa-solid fa-bars"></i>
+    </nav>
+
+    <!-- Main Section -->
+    <section class="main" id="home">
+        <div class="maintext animate__animated animate__fadeInLeft">
+            <h3>Hello, I am</h3>
+            <h1>Sanket<span> Sawarkar</span></h1>
+            <p>I am Passionate About Software Development</p>
+            <button id="cvbtn">Download CV <i class="fa-solid fa-download"></i></button>
+        </div>
+        <div class="main-img animate__animated animate__fadeInRight">
+            <img src="https://img.freepik.com/free-photo/handsome-man-pointing-lateral_1368-5182.jpg?size=626&ext=jpg&ga=GA1.1.1213995074.1708865081&semt=ais" alt="Sanket">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="aboutus" id="about">
+        <div class="head">
+            <h1>About <span>Me</span></h1>
+        </div>
+        <div class="about">
+            <img src="photo4.jpg" alt="Sanket">
+            <div class="abouttxt">
+                <h2>Hello, I am Passionate about <span>Web Development</span></h2>
+                <p>Experience: <span>6 Months</span></p>
+                <p>Speciality: <span>Website Development</span></p>
+                <p>Skills: <span>HTML, CSS & JavaScript</span></p>
+                <p>Email: <span>sawarkarsanket9@gmail.com</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="works" id="work">
+        <div class="head">
+            <h1>My <span>Projects</span></h1>
+        </div>
+        <div class="mywork">
+            <div class="workcard animate__animated animate__zoomIn">
+                <h3>Mobile Store Management System</h3>
+                <p>An e-commerce platform for efficiently managing inventory and sales in a mobile store.</p>
+                <p><strong>Duration:</strong> 6 months</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>
+                <p><strong>Outcome:</strong> Streamlined inventory tracking and sales management, improving operational efficiency.</p>
+            </div>
+
+            <div class="workcard animate__animated animate__zoomIn">
+                <h3>Simple ToDo List Web App</h3>
+                <p>A basic web application for creating and managing a todo list.</p>
+                <p><strong>Duration:</strong> 1 month</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                <p><strong>Outcome:</strong> Implemented CRUD functionality for adding, updating, and deleting tasks, providing a user-friendly interface for task management.</p>
+            </div>
+
+            <div class="workcard animate__animated animate__zoomIn">
+                <h3>Interactive Quiz Application</h3>
+                <p>An interactive web application designed for conducting quizzes on various topics.</p>
+                <p><strong>Duration:</strong> 2 months</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>
+                <p><strong>Outcome:</strong> Developed a user-friendly platform for hosting quizzes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="connect" id="contact">
+        <div class="head">
+            <h1>Contact <span>Me</span></h1>
+        </div>
+        <div class="contact">
+            <form> method="post" id="myForm">
+                <p>Email:</p>
+                <input type="email" placeholder="Enter Email" name="email" id="email" required>
+                <p>Password:</p>
+                <input type="password" placeholder="Enter Password" name="password" id="password" required>
+                <p>Gender:</p>
+                <select name="gender" id="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <p>Message:</p>
+                <textarea placeholder="Enter your message" name="message" id="message" rows="4" required></textarea>
+                <button type="submit">Submit <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="txt">
+            <h2>Contact Here</h2>
+            <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/sanket-sawarkar-89b3a3259">LinkedIn</a></p>
+            <p><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/sanket_sawarkar_09">Instagram</a></p>
+            <p><i class="fa-brands fa-twitter"></i> Twitter: @Sanket98546</p>
+            <p><i class="fa-brands fa-facebook"></i> <a href="https://www.Facebook.com/sanket_sawarkar_09">Facebook</a></p>
+        </div>
+        <div class="txt">
+            <h2>My Work</h2>
+            <p>Good Quality</p>
+            <p>Best</p>
+            <p>Nice</p>
+            <p>Excellent</p>
+        </div>
+        <div class="txt">
+            <h2>Effort</h2>
+            <p>Best work</p>
+            <p>Min Price</p>
+            <p>Affordable</p>
+            <p>Good</p>
+        </div>
+        <div class="txt">
+            <h2>Contact Me</h2>
+            <p><i class="fa-solid fa-phone"></i> Phone: 9897879978</p>
+            <p><i class="fa-solid fa-envelope"></i> Email: sanket89@gmail.com</p>
+        </div>
+    </footer>
+    <script src="index.js"></script> 
+
+</body>
+
+</html>
